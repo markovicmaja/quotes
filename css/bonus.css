@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    width: 900px;
+    
+}
+.home img{
+    position: absolute;
+    z-index: 2;
+    width: 3rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
+header{
+    background-color: rgb(243, 120, 19);
+    height: 2.5rem; 
+    z-index: 1; 
+}
+header nav{
+    display: flex;
+    float: right;
+    margin-right: 1rem;
+    height: 100%;
+}
+header a{
+    padding-right: 0.8rem;
+    padding: 0.8rem;
+    
+    font-size: 0.7rem;
+    color: white;
+    text-decoration: none;
+}
+#about-btn {
+    background: rgb(252, 182, 156);
+    
+}
+.headline {
+    background-image: url('../images/comp.jpeg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    
+}
+.headline h1{
+    text-align: center;
+    padding-top: 6rem;
+    width: 300px;
+    margin-left: 300px;
+    font-size: 2rem;
+    color: white;
+}
+.headline nav{
+    display: flex;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.headline nav a{
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem;
+    background-color: rgb(243, 120, 19);
+    width: 150px;
+}
+.our-work{
+    width: 100%;
+}
+.our-work h1{
+    text-align: center;
+    color: rgb(243, 120, 19);
+    
+}
+.our-work .images {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin: 1rem;    
+    /* display: flex;
+    flex-grow: 1;
+    flex-flow: wrap;
+    justify-content: space-around;
+   margin-top: 1rem; */
+}
+.our-work .images p{
+   margin-right: 1rem;
+   margin-top: 1rem;    
+   
+  width: 160px;
+  height: 150px;
+    font-size: 0.7rem;
+}
+.our-work .images a img{
+    width: 160px;
+    height: 150px;
+   margin-right: 1rem;
+    margin-top: 1rem;    
+    /* width: 170px;
+    height: 160px; */
+}
+
+#img1 img{
+    /* clip-path: polygon(0 15%, 100% 15%, 100% 85%, 0 85%);   */
+    width: 160px;
+    height: 150px;
+    
+   opacity: 0.7;
+}
+
+
+#img1 h3{
+    z-index: 2;
+    position: absolute;
+   margin-top: 8rem;
+    margin-left: 8px;
+    color: white;
+    font-size: 0.8rem;
+}
+ #img1 .fa-eye{
+    z-index: 1;
+    position: absolute;    
+    margin-top: 2rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+} 
+.who-are-we{
+    color: white;
+    margin-top: 1rem;  
+}
+.who-are-we #who{
+   text-align: center;
+  margin-left: 380px;
+    margin-top: 1rem;
+    color: black;
+  padding-top: 1rem;
+   z-index: 2;
+   position: absolute;
+
+}
+.who-are-we #where{
+    text-align: center;
+  margin-left: 380px;
+    
+    color: black;
+    margin-top: -4rem;
+   z-index: 2;
+   position: absolute;
+}
+.employees{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    background-color:rgb(243, 120, 19);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.employees div{
+    width: 50%;
+}
+.employees div p{
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+.employees div img{
+    width: 150px;
+    height: 150px;
+background-color: white;
+clip-path: circle(45%);
+    padding: 0.5rem;
+    shape-outside: circle(45%);
+    float: left;
+    margin: 0.5rem;
+}
+
+.employees div h3{
+    font-size: 0.9rem;
+    margin-top: 2rem;
+        
+}
+iframe{
+    clip-path: polygon(0 20%, 100% 0, 100% 85%, 0 100%);
+   
+    
+}
+footer {
+    margin-top: -6.5rem;
+    
+    
+}
+.footer{
+    list-style-type: none;
+    background-color: rgb(236, 232, 232);
+    text-align: right;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    margin-top: -3.5rem;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+
+    
+}
+.footer li {
+    padding-top: 10px;
+    padding-right: 10rem;
+    font-size: 70%;
+}    
+
